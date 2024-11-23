@@ -7,7 +7,7 @@
 }
 
 :root {
-  --background-color: #15152e;
+  --background-color: #1a1a1a;
   --text-color: #ffffff;
 
   --gamba-ui-border-radius: 10px;
@@ -16,8 +16,8 @@
   --gamba-ui-button-default-background-hover: #11111d;
   --gamba-ui-button-default-color: white;
 
-  --gamba-ui-button-main-background: #8851ff;
-  --gamba-ui-button-main-background-hover: #9564ff;
+  --gamba-ui-button-main-background: #494949;
+  --gamba-ui-button-main-background-hover: #1a1a1a;
 
   --gamba-ui-input-background: #0e0e16;
   --gamba-ui-input-color: #ffffff;
@@ -59,7 +59,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #9564ff;
+  background-color: #494949;
 }
 
 .modal::-webkit-scrollbar {
@@ -67,7 +67,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .modal::-webkit-scrollbar-thumb {
-  background-color: #9564ff;
+  background-color: #494949;
 }
 
 @layer utilities {

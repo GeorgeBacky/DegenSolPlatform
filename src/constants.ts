@@ -27,16 +27,16 @@ export const LIVE_EVENT_TOAST = true;
 
 export const FOOTER_LINKS = [
   {
-    href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
+    href: "https://github.com/BankkRoll/magicnumber-V2-Next.js",
     title: "👨‍💻 Build your own",
   },
   {
-    href: "https://explorer.gamba.so/create",
+    href: "https://explorer.magicnumber.so/create",
     title: "🚀 Create Pool",
   },
   {
-    href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
+    href: "https://magicnumber.so/docs",
+    title: "📖 magicnumber Docs",
   },
   {
     href: "https://discord.com/invite/HSTtFFwR",
@@ -45,8 +45,8 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
-  title: "© 2024 Template made with ❤️ by Bankk",
+  href: "https://x.com/MagicNumber_Co",
+  title: "© 2024 Magic Number Games",
 };
 
 /******************************************
@@ -56,28 +56,28 @@ export const FOOTER_TWITTER_LINK = {
  ******************************************/
 
 export const BASE_SEO_CONFIG = {
-  defaultTitle: "Gamba - NEXTjs Demo",
+  defaultTitle: "MagicNumber Games - DEMO",
   description:
     "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://play-gamba.vercel.app/",
-    title: "Gamba - NEXTjs Demo",
+    url: "https://play-magicnumber.vercel.app/",
+    title: "MagicNumber Games - DEMO",
     description:
       "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
     images: [
       {
-        url: "https://play-gamba.vercel.app/seo.png",
-        alt: "Gamba - NEXTjs Demo",
+        url: "https://play-magicnumber.vercel.app/seo.png",
+        alt: "MagicNumber Games - DEMO",
       },
     ],
-    site_name: "Gamba - NEXTjs Demo",
+    site_name: "MagicNumber Games - DEMO",
   },
   twitter: {
     cardType: "summary_large_image",
-    site: "https://twitter.com/gambalabs",
-    handle: "@gambalabs",
+    site: "https://x.com/MagicNumber_Co",
+    handle: "@MagicNumber_Co",
   },
   additionalMetaTags: [
     {
@@ -120,13 +120,13 @@ export const TOKENLIST = [
   },
   // GUAC
   {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
+    mint: new PublicKey("EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"),
+    name: "dogwifhat",
+    symbol: "$WIF",
     image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
+      "https://dd.dexscreener.com/ds-data/tokens/solana/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm.png?size=xl&key=c97d2c",
     decimals: 5,
-    baseWager: 2000000e5,
+    baseWager: 100e5,
   },
 
   // Add New Public pool
